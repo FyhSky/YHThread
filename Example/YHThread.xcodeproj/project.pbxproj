@@ -21,6 +21,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6F88B4EE2645263800BA01EF /* YHTestThreadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F88B4ED2645263800BA01EF /* YHTestThreadVC.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		BDEC86E89985980E494DEB41 /* Pods_YHThread_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B876D25F6F56425A9E0386 /* Pods_YHThread_Tests.framework */; };
@@ -57,7 +58,9 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		68281F7FD81D63E6B294FFE6 /* YHThread.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YHThread.podspec; path = ../YHThread.podspec; sourceTree = "<group>"; };
+		68281F7FD81D63E6B294FFE6 /* YHThread.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YHThread.podspec; path = ../YHThread.podspec; sourceTree = "<group>"; };
+		6F88B4EC2645263800BA01EF /* YHTestThreadVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHTestThreadVC.h; sourceTree = "<group>"; };
+		6F88B4ED2645263800BA01EF /* YHTestThreadVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHTestThreadVC.m; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73E32601DFB7B7FA1B0CC795 /* Pods-YHThread_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHThread_Example.debug.xcconfig"; path = "Target Support Files/Pods-YHThread_Example/Pods-YHThread_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		83C2532943C0BDFCDD62B74C /* Pods_YHThread_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YHThread_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,8 +68,8 @@
 		8914882879EA8871B673748C /* Pods-YHThread_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHThread_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YHThread_Tests/Pods-YHThread_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D3788E379EC03DF815BD9148 /* Pods-YHThread_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHThread_Tests.release.xcconfig"; path = "Target Support Files/Pods-YHThread_Tests/Pods-YHThread_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E0B876D25F6F56425A9E0386 /* Pods_YHThread_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YHThread_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F734D3BD1D32B669F5829C2A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FB7FF3B8F37A7707BE4DB617 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F734D3BD1D32B669F5829C2A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FB7FF3B8F37A7707BE4DB617 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +106,6 @@
 				8914882879EA8871B673748C /* Pods-YHThread_Tests.debug.xcconfig */,
 				D3788E379EC03DF815BD9148 /* Pods-YHThread_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -152,6 +154,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				6F88B4EC2645263800BA01EF /* YHTestThreadVC.h */,
+				6F88B4ED2645263800BA01EF /* YHTestThreadVC.m */,
 			);
 			name = "Example for YHThread";
 			path = YHThread;
@@ -208,7 +212,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				CC76B5AB8001D3B0B6ED0B41 /* [CP] Embed Pods Frameworks */,
+				8DC1CE7B11BC4DCD6E6D8796 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,6 +263,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -340,6 +345,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		8DC1CE7B11BC4DCD6E6D8796 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YHThread_Example/Pods-YHThread_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/YHThread/YHThread.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YHThread.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YHThread_Example/Pods-YHThread_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		91CA9FF5F34769E56D0BB8A9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -358,24 +381,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YHThread_Tests/Pods-YHThread_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CC76B5AB8001D3B0B6ED0B41 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YHThread_Example/Pods-YHThread_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/YHThread/YHThread.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YHThread.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YHThread_Example/Pods-YHThread_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -384,6 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* YHAppDelegate.m in Sources */,
+				6F88B4EE2645263800BA01EF /* YHTestThreadVC.m in Sources */,
 				6003F5A7195388D20070C39A /* YHViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

@@ -9,6 +9,18 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+For Swift:
+let thread = YHThread()
+thread.excuteTask {
+    // Block is run on the thread
+}
+
+For OC:
+YHThread *thread = [YHThread new];
+[thread  excuteTask:^{
+    // Block is run on the thread
+}];
+
 ## Requirements
 
 ## Installation
