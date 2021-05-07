@@ -12,7 +12,6 @@
 
 #import "NSThread+block.h"
 #import "YHThread.h"
-#import "YHWeakProxy.h"
 
 FOUNDATION_EXPORT double YHThreadVersionNumber;
 FOUNDATION_EXPORT const unsigned char YHThreadVersionString[];

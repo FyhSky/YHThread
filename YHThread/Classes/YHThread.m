@@ -6,7 +6,6 @@
 //
 
 #import "YHThread.h"
-#import "YHWeakProxy.h"
 #import "NSThread+block.h"
 
 @interface YHThread()
