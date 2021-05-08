@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "GCDThread.h"
 #import "NSThread+block.h"
 #import "YHThread.h"
 

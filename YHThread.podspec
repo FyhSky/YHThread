@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YHThread'
-  s.version          = '0.2.0'
-  s.summary          = 'A short description of YHThread.'
+  s.version          = '1.0.0'
+  s.summary          = '1.A simple wrapper on NSThread depended on NSRunLoop to run blocks on exactly the same thread.\n2.Serial queue  Simulating thread using a serial queue'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

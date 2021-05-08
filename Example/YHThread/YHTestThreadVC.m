@@ -8,9 +8,10 @@
 
 #import "YHTestThreadVC.h"
 #import <YHThread/YHThread.h>
-
+#import <YHThread/GCDThread.h>
 @interface YHTestThreadVC ()
 @property (nonatomic,strong) YHThread *thread;
+@property (nonatomic,strong) GCDThread *gcdThread;
 @end
 
 @implementation YHTestThreadVC
@@ -19,8 +20,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = UIColor.grayColor;
+
     _thread = [YHThread new];
     _thread.name = @"YHThread";
+    _gcdThread = [[GCDThread alloc] init:@""];
     UIButton *btn = [UIButton new];
     btn.frame = CGRectMake((self.view.frame.size.width - 100) / 2.0, (self.view.frame.size.height - 100) / 2.0, 100, 100);
     [self.view addSubview:btn];
@@ -43,7 +46,10 @@
 
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [_thread excuteTask:^{
+//    [_thread excuteTask:^{
+//        NSLog(@"111");
+//    }];
+    [_gcdThread excuteTask:^{
         NSLog(@"111");
     }];
 }

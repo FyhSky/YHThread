@@ -12,14 +12,13 @@
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
-		1806269B611A6EE63B8952978B90E377 /* NSThread+block.h in Headers */ = {isa = PBXBuildFile; fileRef = ACC845C3B22B6F7D9B81F14D8603F068 /* NSThread+block.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15D7A9E8EC83A16BB13B3DEEDBC52CF3 /* NSThread+block.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C5F0B10C1324842EBCFC219CC24A5A6 /* NSThread+block.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22DE478CD2BD12D1E7787566BA38A805 /* Pods-YHThread_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 143DD2D0DFE3DF3FABE115EE07BCBC86 /* Pods-YHThread_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
-		3904A68490F513EC4295829D02BE8A78 /* YHThread-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6172C4966FB9583EB22F0A922CAE47F1 /* YHThread-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DE31E583B3FACC88B4BB1F7464F2213 /* YHThread-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAE310E84B9DAE4E91E0527733FCF03 /* YHThread-dummy.m */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		48211194ADA8BCE9E2FA85EAA690610A /* YHThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 926AF17E4D9BFB96A89132B1B7E40CA3 /* YHThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51E88C9D34DA7D7D7CFA7AE5EB692A6B /* YHThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F3BE7AF3816983C35306E23AD2A4F40 /* YHThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5969A34822DDB9B251CD51148DE6E7CF /* Pods-YHThread_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B38E792789203A88FA7B6047AD37C887 /* Pods-YHThread_Tests-dummy.m */; };
-		5ABC1AA009C18B015BDCF3870F177687 /* YHThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC59DE1EB41EE3A2F91AD6E474AEA61 /* YHThread.m */; };
 		6220D434178497362632DBEFA0324659 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
@@ -27,77 +26,85 @@
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
+		9E85AB7D954E10D452DDAF92E7173753 /* YHThread-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F8F15BB836E9ECF8FA46AC11444D49 /* YHThread-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F99D2D38F2B9C72426027989111DE11 /* GCDThread.h in Headers */ = {isa = PBXBuildFile; fileRef = FC88256648FFE97C5A9CD9D0213B651A /* GCDThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
-		A7AFA2043DA87294C7BCBC3563730098 /* YHThread-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2D2432945ADFB43673824CE1028DE2 /* YHThread-dummy.m */; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C212B50E0A8555B78FEADB06720C6406 /* NSThread+block.m in Sources */ = {isa = PBXBuildFile; fileRef = 166978909046585AA340EB722F87D5F4 /* NSThread+block.m */; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C817EF9B0AEC47637C10E0C53D8E6FB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D08E91274DF7EAA4F84AF75A3565770D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		D3A58BBB0FCAD19BB7523D780B7F6AD4 /* Pods-YHThread_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B24A0A6D96958C6D68567E488E62DEA /* Pods-YHThread_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7F41917865C68DD51609E40A1350D75 /* NSThread+block.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBA6DB979C1DACBDAF962423A8F932A /* NSThread+block.m */; };
+		DB88DB4236DF85ED33809631AC132AA1 /* YHThread.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C131E21B1E42BE73FEBE46B7CB4224 /* YHThread.m */; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBAF18FC99B7B0B5E8EEA10A47786B9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		FDBE69FB8FA5875F2DF1FACE09406F49 /* GCDThread.m in Sources */ = {isa = PBXBuildFile; fileRef = E42607EE3AA71717C4E5DE1C85E7B716 /* GCDThread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2D835C116C652DA9C2028B0545A5B946 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
-			remoteInfo = FBSnapshotTestCase;
-		};
-		60CA03837182579BEC3014B1F5527A3E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E029EB9473673CA60C9CACC71CB88B71;
-			remoteInfo = "Pods-YHThread_Example";
-		};
-		B49466C363FD6107B57B7EAE604E7F5F /* PBXContainerItemProxy */ = {
+		1382370457EA2A8961D7E89B6A67512A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 23E392CEC08686BB7D6A7E9F6762BC7A;
 			remoteInfo = YHThread;
 		};
+		476EDD0082FA51CB0936C1BB67F2CE26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E029EB9473673CA60C9CACC71CB88B71;
+			remoteInfo = "Pods-YHThread_Example";
+		};
+		47F826BC0030398B48A7EA94E510497B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		066E7FF956C483E65D8AEB27A11F9315 /* Pods-YHThread_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHThread_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0685074C157DDD1E5DC79ECC5CC66C36 /* YHThread.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHThread.release.xcconfig; sourceTree = "<group>"; };
 		0B0E69832D0E13B7DDBF4B50000F6532 /* Pods-YHThread_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YHThread_Example-frameworks.sh"; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		143DD2D0DFE3DF3FABE115EE07BCBC86 /* Pods-YHThread_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YHThread_Example-umbrella.h"; sourceTree = "<group>"; };
+		166978909046585AA340EB722F87D5F4 /* NSThread+block.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSThread+block.m"; path = "YHThread/Classes/NSThread+block.m"; sourceTree = "<group>"; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		1B2170743AD89E1932CD9A000B47A17D /* YHThread-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHThread-prefix.pch"; sourceTree = "<group>"; };
-		1CBA6DB979C1DACBDAF962423A8F932A /* NSThread+block.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSThread+block.m"; path = "YHThread/Classes/NSThread+block.m"; sourceTree = "<group>"; };
 		1E3533C987F93190C02FB67EDF4688DA /* Pods-YHThread_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHThread_Example-Info.plist"; sourceTree = "<group>"; };
-		1EC59DE1EB41EE3A2F91AD6E474AEA61 /* YHThread.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHThread.m; path = YHThread/Classes/YHThread.m; sourceTree = "<group>"; };
-		2353C53870F615E30CDA6F09A333B1AF /* YHThread.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YHThread.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2193ACF03EFC40A9303FF83472437DCF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		2A91BB6DC600CFBF625787A733D7ECB5 /* Pods-YHThread_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHThread_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2B18E7C250EF3D8B7FE0A76E7485940F /* YHThread-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YHThread-Info.plist"; sourceTree = "<group>"; };
+		2C5F0B10C1324842EBCFC219CC24A5A6 /* NSThread+block.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSThread+block.h"; path = "YHThread/Classes/NSThread+block.h"; sourceTree = "<group>"; };
+		2F3BE7AF3816983C35306E23AD2A4F40 /* YHThread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHThread.h; path = YHThread/Classes/YHThread.h; sourceTree = "<group>"; };
+		30F8F15BB836E9ECF8FA46AC11444D49 /* YHThread-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHThread-umbrella.h"; sourceTree = "<group>"; };
 		31212414FD87B6A0D1E58D510E2EA32C /* Pods-YHThread_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YHThread_Example.modulemap"; sourceTree = "<group>"; };
 		3E9D7181FFDB63F9763E9CA96800961A /* Pods-YHThread_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YHThread_Example-dummy.m"; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		4617D6795E1818EB5423F8CDE3516D2C /* YHThread-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHThread-prefix.pch"; sourceTree = "<group>"; };
 		4B24A0A6D96958C6D68567E488E62DEA /* Pods-YHThread_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YHThread_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
 		5594F9AAAA3C241DC77DBB41F540C47D /* Pods_YHThread_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YHThread_Example.framework; path = "Pods-YHThread_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		594C084BB74A52C60FEA748EF3C4C770 /* Pods-YHThread_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YHThread_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		5A89DBC680437E5D1940254FAB0E7FBC /* Pods-YHThread_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHThread_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DAE310E84B9DAE4E91E0527733FCF03 /* YHThread-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YHThread-dummy.m"; sourceTree = "<group>"; };
+		5E5DB4835996B410EB0854F0811E8A93 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6172C4966FB9583EB22F0A922CAE47F1 /* YHThread-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHThread-umbrella.h"; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		6745E91C7006659396F75967E9817237 /* YHThread.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHThread.release.xcconfig; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		763A1291B5FCE21062F0301BBFACABF1 /* YHThread.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YHThread.modulemap; sourceTree = "<group>"; };
 		799BC47FF43E5D8597BFE5C07AC65096 /* YHThread.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YHThread.framework; path = YHThread.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
@@ -106,39 +113,36 @@
 		8C6745762EF43059438541C7378ED467 /* Pods-YHThread_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHThread_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		926AF17E4D9BFB96A89132B1B7E40CA3 /* YHThread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHThread.h; path = YHThread/Classes/YHThread.h; sourceTree = "<group>"; };
-		94430A733006963F5BD88A995E5A137B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		9B2CEC16E4F197EB36202F7E5D0249B9 /* YHThread.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHThread.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ACC845C3B22B6F7D9B81F14D8603F068 /* NSThread+block.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSThread+block.h"; path = "YHThread/Classes/NSThread+block.h"; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		B38E792789203A88FA7B6047AD37C887 /* Pods-YHThread_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YHThread_Tests-dummy.m"; sourceTree = "<group>"; };
-		B3C6D0B43EA6D63D240F1701CEF094DD /* YHThread.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YHThread.modulemap; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		B75D6688D9A591415AC38720366F6E5B /* Pods-YHThread_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHThread_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BC0462FE6261AD666A3B26A24346223E /* YHThread.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHThread.debug.xcconfig; sourceTree = "<group>"; };
-		C55DFE948719686B60D9F1DE81E00DF7 /* YHThread-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YHThread-Info.plist"; sourceTree = "<group>"; };
-		C98D7FE5678B6E8F0271714C8CE40F5F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C2C131E21B1E42BE73FEBE46B7CB4224 /* YHThread.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHThread.m; path = YHThread/Classes/YHThread.m; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		CF313ED91EAC5888A609535C70946506 /* Pods-YHThread_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YHThread_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D0229600A9B292B60735723F6B985009 /* Pods-YHThread_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHThread_Tests-Info.plist"; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		D2754911CABF84975FF4EEFAF62AA40F /* YHThread.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YHThread.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		DE209FF9317356B1F94EF6583A0EFFCD /* Pods-YHThread_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YHThread_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E2887A72B1D69AFE57CEF05A596426CE /* Pods-YHThread_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHThread_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E42607EE3AA71717C4E5DE1C85E7B716 /* GCDThread.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDThread.m; path = YHThread/Classes/GCDThread.m; sourceTree = "<group>"; };
 		F9BDF390FBB5A39AF2F02028662D52DB /* Pods_YHThread_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YHThread_Tests.framework; path = "Pods-YHThread_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB2D2432945ADFB43673824CE1028DE2 /* YHThread-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YHThread-dummy.m"; sourceTree = "<group>"; };
+		FC88256648FFE97C5A9CD9D0213B651A /* GCDThread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDThread.h; path = YHThread/Classes/GCDThread.h; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0AE9450A9E9D007213A6C7EB1A30E0C1 /* Frameworks */ = {
+		5654DAD018BE3866E3C8546A83156056 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBAF18FC99B7B0B5E8EEA10A47786B9A /* Foundation.framework in Frameworks */,
+				C817EF9B0AEC47637C10E0C53D8E6FB9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,15 +176,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B640B1FB74DA6FE3B46833552ED7FD1 /* YHThread */ = {
+		07FEA465E56E704CBF52835D4CB9B172 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				ACC845C3B22B6F7D9B81F14D8603F068 /* NSThread+block.h */,
-				1CBA6DB979C1DACBDAF962423A8F932A /* NSThread+block.m */,
-				926AF17E4D9BFB96A89132B1B7E40CA3 /* YHThread.h */,
-				1EC59DE1EB41EE3A2F91AD6E474AEA61 /* YHThread.m */,
-				89FCF45F0818A9AD00A4A2CB1E549B72 /* Pod */,
-				5D4691482CB3BC774BCF88DA107A9748 /* Support Files */,
+				763A1291B5FCE21062F0301BBFACABF1 /* YHThread.modulemap */,
+				5DAE310E84B9DAE4E91E0527733FCF03 /* YHThread-dummy.m */,
+				2B18E7C250EF3D8B7FE0A76E7485940F /* YHThread-Info.plist */,
+				4617D6795E1818EB5423F8CDE3516D2C /* YHThread-prefix.pch */,
+				30F8F15BB836E9ECF8FA46AC11444D49 /* YHThread-umbrella.h */,
+				9B2CEC16E4F197EB36202F7E5D0249B9 /* YHThread.debug.xcconfig */,
+				0685074C157DDD1E5DC79ECC5CC66C36 /* YHThread.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YHThread";
+			sourceTree = "<group>";
+		};
+		131DF0FA3D734FD2DD51CCD2CE2C6C31 /* YHThread */ = {
+			isa = PBXGroup;
+			children = (
+				FC88256648FFE97C5A9CD9D0213B651A /* GCDThread.h */,
+				E42607EE3AA71717C4E5DE1C85E7B716 /* GCDThread.m */,
+				2C5F0B10C1324842EBCFC219CC24A5A6 /* NSThread+block.h */,
+				166978909046585AA340EB722F87D5F4 /* NSThread+block.m */,
+				2F3BE7AF3816983C35306E23AD2A4F40 /* YHThread.h */,
+				C2C131E21B1E42BE73FEBE46B7CB4224 /* YHThread.m */,
+				81C16EB4D7390770FDA1D4D6879FD092 /* Pod */,
+				07FEA465E56E704CBF52835D4CB9B172 /* Support Files */,
 			);
 			name = YHThread;
 			path = ../..;
@@ -252,21 +273,6 @@
 			path = "Target Support Files/Pods-YHThread_Tests";
 			sourceTree = "<group>";
 		};
-		5D4691482CB3BC774BCF88DA107A9748 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B3C6D0B43EA6D63D240F1701CEF094DD /* YHThread.modulemap */,
-				FB2D2432945ADFB43673824CE1028DE2 /* YHThread-dummy.m */,
-				C55DFE948719686B60D9F1DE81E00DF7 /* YHThread-Info.plist */,
-				1B2170743AD89E1932CD9A000B47A17D /* YHThread-prefix.pch */,
-				6172C4966FB9583EB22F0A922CAE47F1 /* YHThread-umbrella.h */,
-				BC0462FE6261AD666A3B26A24346223E /* YHThread.debug.xcconfig */,
-				6745E91C7006659396F75967E9817237 /* YHThread.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YHThread";
-			sourceTree = "<group>";
-		};
 		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -278,22 +284,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		89FCF45F0818A9AD00A4A2CB1E549B72 /* Pod */ = {
+		81C16EB4D7390770FDA1D4D6879FD092 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				94430A733006963F5BD88A995E5A137B /* LICENSE */,
-				C98D7FE5678B6E8F0271714C8CE40F5F /* README.md */,
-				2353C53870F615E30CDA6F09A333B1AF /* YHThread.podspec */,
+				5E5DB4835996B410EB0854F0811E8A93 /* LICENSE */,
+				2193ACF03EFC40A9303FF83472437DCF /* README.md */,
+				D2754911CABF84975FF4EEFAF62AA40F /* YHThread.podspec */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		8E94ED7391A42B4E7C4557F3FDEEE389 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1B640B1FB74DA6FE3B46833552ED7FD1 /* YHThread */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
@@ -351,12 +349,20 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				8E94ED7391A42B4E7C4557F3FDEEE389 /* Development Pods */,
+				DB7FC7CE2A3CD5414A12A929A3B1B48E /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
 				2858387BCD9025D3C23EE60F6571EF91 /* Products */,
 				B50891C7EFF2C5F538F5240F322E96F5 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		DB7FC7CE2A3CD5414A12A929A3B1B48E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				131DF0FA3D734FD2DD51CCD2CE2C6C31 /* YHThread */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
@@ -385,13 +391,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		977F39A80D2D14CA12AF351E82ABDE32 /* Headers */ = {
+		73D398CCEDB54C6429962841137C2104 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1806269B611A6EE63B8952978B90E377 /* NSThread+block.h in Headers */,
-				3904A68490F513EC4295829D02BE8A78 /* YHThread-umbrella.h in Headers */,
-				48211194ADA8BCE9E2FA85EAA690610A /* YHThread.h in Headers */,
+				9F99D2D38F2B9C72426027989111DE11 /* GCDThread.h in Headers */,
+				15D7A9E8EC83A16BB13B3DEEDBC52CF3 /* NSThread+block.h in Headers */,
+				9E85AB7D954E10D452DDAF92E7173753 /* YHThread-umbrella.h in Headers */,
+				51E88C9D34DA7D7D7CFA7AE5EB692A6B /* YHThread.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,12 +423,12 @@
 /* Begin PBXNativeTarget section */
 		23E392CEC08686BB7D6A7E9F6762BC7A /* YHThread */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE69CC537DA12D2B62A9BF0370E26D29 /* Build configuration list for PBXNativeTarget "YHThread" */;
+			buildConfigurationList = DAB0D0933496862C3A7F24E27D8CB3E4 /* Build configuration list for PBXNativeTarget "YHThread" */;
 			buildPhases = (
-				977F39A80D2D14CA12AF351E82ABDE32 /* Headers */,
-				3EAE1BD018AAE89E6C9763FF6C3DDD07 /* Sources */,
-				0AE9450A9E9D007213A6C7EB1A30E0C1 /* Frameworks */,
-				A94FA92F10E05DA8A44643E5EAD31A9D /* Resources */,
+				73D398CCEDB54C6429962841137C2104 /* Headers */,
+				C1A4E1D07A9CC89BE83A8E149C8F60D2 /* Sources */,
+				5654DAD018BE3866E3C8546A83156056 /* Frameworks */,
+				8C40E3B5EB1CE26007949937A34533E4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -444,8 +451,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				078191BF510A49A0CCB4D2F50E4CE9C6 /* PBXTargetDependency */,
-				BBBC1EFF31253E61131A4A770120478C /* PBXTargetDependency */,
+				CC081F410A1ACD4902407AE5A5D74B94 /* PBXTargetDependency */,
+				2E67D4100D398565CC318462A02717F8 /* PBXTargetDependency */,
 			);
 			name = "Pods-YHThread_Tests";
 			productName = "Pods-YHThread_Tests";
@@ -482,7 +489,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				532B3F3C8C641BF0108511B0497E3561 /* PBXTargetDependency */,
+				A2D5243D002F84ABCFCD9259570CFB75 /* PBXTargetDependency */,
 			);
 			name = "Pods-YHThread_Example";
 			productName = "Pods-YHThread_Example";
@@ -541,7 +548,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A94FA92F10E05DA8A44643E5EAD31A9D /* Resources */ = {
+		8C40E3B5EB1CE26007949937A34533E4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -551,16 +558,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3EAE1BD018AAE89E6C9763FF6C3DDD07 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D7F41917865C68DD51609E40A1350D75 /* NSThread+block.m in Sources */,
-				A7AFA2043DA87294C7BCBC3563730098 /* YHThread-dummy.m in Sources */,
-				5ABC1AA009C18B015BDCF3870F177687 /* YHThread.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		65BF03BD7DA97B26C5E8C561C39099D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -593,33 +590,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C1A4E1D07A9CC89BE83A8E149C8F60D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDBE69FB8FA5875F2DF1FACE09406F49 /* GCDThread.m in Sources */,
+				C212B50E0A8555B78FEADB06720C6406 /* NSThread+block.m in Sources */,
+				3DE31E583B3FACC88B4BB1F7464F2213 /* YHThread-dummy.m in Sources */,
+				DB88DB4236DF85ED33809631AC132AA1 /* YHThread.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		078191BF510A49A0CCB4D2F50E4CE9C6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBSnapshotTestCase;
-			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = 2D835C116C652DA9C2028B0545A5B946 /* PBXContainerItemProxy */;
-		};
-		532B3F3C8C641BF0108511B0497E3561 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YHThread;
-			target = 23E392CEC08686BB7D6A7E9F6762BC7A /* YHThread */;
-			targetProxy = B49466C363FD6107B57B7EAE604E7F5F /* PBXContainerItemProxy */;
-		};
-		BBBC1EFF31253E61131A4A770120478C /* PBXTargetDependency */ = {
+		2E67D4100D398565CC318462A02717F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-YHThread_Example";
 			target = E029EB9473673CA60C9CACC71CB88B71 /* Pods-YHThread_Example */;
-			targetProxy = 60CA03837182579BEC3014B1F5527A3E /* PBXContainerItemProxy */;
+			targetProxy = 476EDD0082FA51CB0936C1BB67F2CE26 /* PBXContainerItemProxy */;
+		};
+		A2D5243D002F84ABCFCD9259570CFB75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YHThread;
+			target = 23E392CEC08686BB7D6A7E9F6762BC7A /* YHThread */;
+			targetProxy = 1382370457EA2A8961D7E89B6A67512A /* PBXContainerItemProxy */;
+		};
+		CC081F410A1ACD4902407AE5A5D74B94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 47F826BC0030398B48A7EA94E510497B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		185EF2839002B273986318CBFF2BBF11 /* Release */ = {
+		325758279FD20ED833E4BE38DD593937 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6745E91C7006659396F75967E9817237 /* YHThread.release.xcconfig */;
+			baseConfigurationReference = 0685074C157DDD1E5DC79ECC5CC66C36 /* YHThread.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -972,9 +980,9 @@
 			};
 			name = Release;
 		};
-		CBE5F80CEC407D7A7CA95579992F66F4 /* Debug */ = {
+		D52735BF98B074DF160BB01A163CAFBE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC0462FE6261AD666A3B26A24346223E /* YHThread.debug.xcconfig */;
+			baseConfigurationReference = 9B2CEC16E4F197EB36202F7E5D0249B9 /* YHThread.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1033,20 +1041,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE69CC537DA12D2B62A9BF0370E26D29 /* Build configuration list for PBXNativeTarget "YHThread" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CBE5F80CEC407D7A7CA95579992F66F4 /* Debug */,
-				185EF2839002B273986318CBFF2BBF11 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		C93F5868852A811741267423AC67D0BF /* Build configuration list for PBXNativeTarget "Pods-YHThread_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7878A461EFD888139EA19216651969E9 /* Debug */,
 				547920C09E1CD1363BC6B2D092CBB068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB0D0933496862C3A7F24E27D8CB3E4 /* Build configuration list for PBXNativeTarget "YHThread" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D52735BF98B074DF160BB01A163CAFBE /* Debug */,
+				325758279FD20ED833E4BE38DD593937 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
