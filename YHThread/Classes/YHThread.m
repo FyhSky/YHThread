@@ -63,14 +63,16 @@
     [self performSelector:@selector(taskAction:)
                  onThread:self.thread
                withObject:action
-            waitUntilDone:YES];
+            waitUntilDone:NO];
 }
 
 - (void)taskAction:(ThreadTaskAction)action {
-    if (!action) {
-        return;
+    @autoreleasepool {
+        if (!action) {
+            return;
+        }
+        action();
     }
-    action();
 }
 
 - (void)dealloc {
