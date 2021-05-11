@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YHThread'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = '1.A simple wrapper on NSThread depended on NSRunLoop to run blocks on exactly the same thread.\n2.Serial queue  Simulating thread using a serial queue'
 
 # This description is used to generate tags and improve search results.
